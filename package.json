@@ -1,0 +1,24 @@
+{
+  "name": "neobank-tailwindcss-example",
+  "version": "1.0.0",
+  "description": "this is an example from another designer from dribbble.com. Credits to Afterglow!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./resources/app.css -o ./public/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoopless/NeoBank-TailwindCSS-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoopless/NeoBank-TailwindCSS-example/issues"
+  },
+  "homepage": "https://github.com/Hoopless/NeoBank-TailwindCSS-example#readme",
+  "dependencies": {
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
